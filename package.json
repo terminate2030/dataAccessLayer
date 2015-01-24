@@ -1,0 +1,29 @@
+{
+  "name": "DataAccessLayer",
+  "version": "1.0.0",
+  "description": "this is module that uses mongoose for communication with mongoDb noSql database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://terminate2030@github.com/terminate2030/dataAccessLayer.git"
+  },
+  "author": "terminate2030@gmail.com",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/terminate2030/dataAccessLayer/issues"
+  },
+  "homepage": "https://github.com/terminate2030/dataAccessLayer",
+  "dependencies": {
+    "mongoose": "^3.8.21"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "mocha": "^2.1.0",
+    "should": "^4.6.1"
+  }
+}
